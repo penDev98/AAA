@@ -6,13 +6,16 @@ const Footer = () => {
     <footer className="bg-white py-12 px-4 sm:px-6 lg:px-8 border-t border-gray-200">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-          <div className="text-gray-600">
-            © 2025 LeadOps. All rights reserved.
+          <div className="text-gray-600 text-center md:text-left space-y-1">
+            <div>© 2026 LeadOps. All rights reserved.</div>
+            <div className="text-sm text-gray-500">
+              LEAD OPS EOOD · ЕИК 208784175 · ul. Dvadeset i Parva 44, 2947 Ognyanovo, Bulgaria
+            </div>
           </div>
           
           <div className="flex items-center space-x-6">
             <a 
-              href="mailto:contact@leadops.com" 
+              href="mailto:kerim@leadopsagency.com" 
               className="text-gray-400 hover:text-blue-600 transition-colors"
               aria-label="Email"
             >
